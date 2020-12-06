@@ -1,0 +1,143 @@
+
+.flexSlider
+
+    &__control
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        position: relative
+        width: calc(100% - 40px)
+        top: -15px
+        height: 0
+        padding: 0 20px
+
+        &_btn
+            background-color: #ffffff
+            border: none
+            height: 30px
+            width: 30px
+            border-radius: 50%
+            background-size: 15px 15px
+            background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDkwLjggNDkwLjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5MC44IDQ5MC44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojMDA5Njg4OyIgZD0iTTIzMS42OTYsMy4xMjhjLTQuMjM3LTQuMDkzLTEwLjk5LTMuOTc1LTE1LjA4MywwLjI2MmMtMy45OTIsNC4xMzQtMy45OTIsMTAuNjg3LDAsMTQuODINCgkJbDIyNy4xMTUsMjI3LjEzNkwyMTYuNTkyLDQ3Mi40NjFjLTQuMjM3LDQuMDkzLTQuMzU1LDEwLjg0NS0wLjI2MiwxNS4wODNjNC4wOTMsNC4yMzcsMTAuODQ1LDQuMzU0LDE1LjA4MywwLjI2Mg0KCQljMC4wODktMC4wODYsMC4xNzYtMC4xNzMsMC4yNjItMC4yNjJsMjM0LjY2Ny0yMzQuNjY3YzQuMTY0LTQuMTY1LDQuMTY0LTEwLjkxNywwLTE1LjA4M0wyMzEuNjk2LDMuMTI4eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMwMDk2ODg7IiBkPSJNMjc0LjM2MywyMzcuNzk1TDM5LjY5NiwzLjEyOGMtNC4yMzctNC4wOTMtMTAuOTktMy45NzUtMTUuMDgzLDAuMjYyDQoJCWMtMy45OTIsNC4xMzQtMy45OTIsMTAuNjg3LDAsMTQuODIxbDIyNy4xMTUsMjI3LjEzNkwyNC41OTIsNDcyLjQ2MWMtNC4yMzcsNC4wOTMtNC4zNTQsMTAuODQ1LTAuMjYyLDE1LjA4Mw0KCQljNC4wOTMsNC4yMzcsMTAuODQ1LDQuMzU0LDE1LjA4MywwLjI2MmMwLjA4OS0wLjA4NiwwLjE3Ni0wLjE3MywwLjI2Mi0wLjI2MmwyMzQuNjY3LTIzNC42NjcNCgkJQzI3OC41MTEsMjQ4LjcxOCwyNzguNTIxLDI0MS45NjYsMjc0LjM2MywyMzcuNzk1eiIvPg0KPC9nPg0KPHBhdGggZD0iTTIyNC4xNDQsNDkwLjY4Yy01Ljg5MSwwLjAxMS0xMC42NzUtNC43NTctMTAuNjg2LTEwLjY0OGMtMC4wMDUtMi44NCwxLjEyMy01LjU2NSwzLjEzNC03LjU3MWwyMjcuMTM2LTIyNy4xMTUNCglMMjE2LjU5MiwxOC4yMzJjLTQuMDkzLTQuMjM3LTMuOTc1LTEwLjk5LDAuMjYyLTE1LjA4M2M0LjEzNC0zLjk5MiwxMC42ODctMy45OTIsMTQuODIsMGwyMzQuNjY3LDIzNC42NjcNCgljNC4xNjQsNC4xNjUsNC4xNjQsMTAuOTE3LDAsMTUuMDgzTDIzMS42NzUsNDg3LjU2NUMyMjkuNjc2LDQ4OS41NiwyMjYuOTY4LDQ5MC42OCwyMjQuMTQ0LDQ5MC42OHoiLz4NCjxwYXRoIGQ9Ik0zMi4xNDQsNDkwLjY4Yy01Ljg5MSwwLjAxMS0xMC42NzUtNC43NTctMTAuNjg2LTEwLjY0OGMtMC4wMDUtMi44NCwxLjEyMy01LjU2NSwzLjEzNC03LjU3MWwyMjcuMTM2LTIyNy4xMTUNCglMMjQuNTkyLDE4LjIzMmMtNC4xNzEtNC4xNzEtNC4xNzEtMTAuOTMzLDAtMTUuMTA0czEwLjkzMy00LjE3MSwxNS4xMDQsMGwyMzQuNjY3LDIzNC42NjdjNC4xNjQsNC4xNjUsNC4xNjQsMTAuOTE3LDAsMTUuMDgzDQoJTDM5LjY5Niw0ODcuNTQ0QzM3LjY5NSw0ODkuNTUxLDM0Ljk3OCw0OTAuNjgsMzIuMTQ0LDQ5MC42OHoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K) 
+            background-repeat: no-repeat
+            background-position: center center
+            cursor: pointer
+            border: 2px solid #ffffff
+            box-shadow: 0px 0px 7px rgba(0,0,0,.3)
+            transition: all .9s ease-out
+
+            &:hover
+                // border: 2px solid rgba(36, 99, 185,.2)
+                box-shadow: 0px 0px 7px rgba(0,0,0,.7)
+                transition: all .9s ease-out
+
+            &:focus
+                border: none
+                outline: none
+                border: 2px solid rgba(36, 99, 185,.2)
+
+
+            &__right
+
+            &__left
+                transform: rotate(180deg)
+                
+    
+    &__wrapper
+        width: 100%
+        display: flex
+        overflow-x: auto
+
+    &__slide
+        min-width: 550px        
+        height: 250px
+        background: rgba(234,222,180,.5)
+        margin-right: 10px
+        border-radius: 4px
+
+        &_link
+            text-decoration: none
+
+        &_top
+            display: flex
+            flex-direction: column
+            height: 70%
+
+            &--title
+                width: calc(100% - 30px)
+                color: #000000
+                background: rgba(255,255,255,.5)
+                font-size: 26px
+                padding: 15px
+                text-transform: uppercase
+                border-radius: 4px 0 0 0
+
+            &--description
+                width: calc(100% - 30px)
+                color: #000000
+                background: rgba(255,255,255,.5)
+                font-size: 22px
+                padding: 15px
+                height: calc(100% - 30px)                
+
+        &_bottom
+            display: flex
+            flex-direction: row
+            height: 30%
+
+            &--precent
+                width: 50%
+                background: rgba(255, 4, 4,.5)
+                color: #FFF
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 36px
+                font-weight: 800
+                border-radius: 0 0 0 4px
+
+            &--btn
+                width: 50%
+                background: rgba(36, 99, 185, 0.5)
+                color: #FFF
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 28px
+                font-weight: 800
+                text-transform: uppercase
+                border-radius: 0 0 4px 0 
+
+@media screen and ( max-width: 470px )
+    .flexSlider
+
+        &__slide
+            min-width: 280px
+            height: 150px
+            background-size: cover
+
+            &_top
+
+                &--title
+                    font-size: 20px
+                    padding: 9px
+                    width: calc(100% - 18px)
+
+                &--description
+                    font-size: 16px
+                    padding: 9px
+                    width: calc(100% - 18px)
+
+            &_bottom
+
+                &--precent
+                    font-size: 24px
+                    padding: 9px
+
+                &--btn
+                    font-size: 18px
+                    padding: 9px
+
+        &__control
+            display: none
+    

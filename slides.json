@@ -1,0 +1,36 @@
+{
+    "slides": [
+        {
+            "image": "./slides/01.png",
+            "text": "Заголовок",
+            "description": "Описание акции",
+            "button": "Перейти",
+            "precent": "-45%",
+            "href": "#"
+        },
+        {
+            "image": "./slides/01.png",
+            "text": "Test text 2",
+            "description": "Test description",
+            "button": "Click!",
+            "precent": "-45%",
+            "href": "#"
+        },
+        {
+            "image": "./slides/01.png",
+            "text": "Test text 3",
+            "description": "Test description",
+            "button": "Click!",
+            "precent": "-45%",
+            "href": "#"
+        },
+        {
+            "image": "./slides/01.png",
+            "text": "Test text 4",
+            "description": "Test description",
+            "button": "Click!",
+            "precent": "-45%",
+            "href": "#"
+        }
+    ]
+}
