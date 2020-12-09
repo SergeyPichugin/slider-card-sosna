@@ -33,16 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Slider
     let btnLeftSlide = document.querySelector('#slideLeft')
     let btnRightSlide = document.querySelector('#slideRight')
-    let wrapper = document.querySelector('.flexSlider__wrapper')
+    let wrapper = document.querySelector('.flexSlider__wrapper')    
 
-    btnLeftSlide.addEventListener('click', () => {
-        console.log('click left btn')
+    btnLeftSlide.addEventListener('click', () => {        
         wrapper.scrollBy(-550, 0)        
     })
 
-    btnRightSlide.addEventListener('click', () => {
-        console.log('click right btn')
+    btnRightSlide.addEventListener('click', () => {                             
         wrapper.scrollBy(550, 0)
+        
     })
 
 })

@@ -1,21 +1,13 @@
 .flexSlider__control {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   position: relative;
   width: calc(100% - 40px);
   top: -15px;
   height: 0;
   padding: 0 20px;
 }
-
 .flexSlider__control_btn {
   background-color: #ffffff;
   border: none;
@@ -28,39 +20,27 @@
   background-position: center center;
   cursor: pointer;
   border: 2px solid #ffffff;
-  -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .9s ease-out;
-  transition: all .9s ease-out;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  transition: all 0.9s ease-out;
 }
-
 .flexSlider__control_btn:hover {
-  -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
-          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
-  -webkit-transition: all .9s ease-out;
-  transition: all .9s ease-out;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  transition: all 0.9s ease-out;
 }
-
 .flexSlider__control_btn:focus {
   border: none;
   outline: none;
   border: 2px solid rgba(36, 99, 185, 0.2);
 }
-
 .flexSlider__control_btn__left {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
 .flexSlider__wrapper {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
 .flexSlider__slide {
   min-width: 550px;
   height: 250px;
@@ -68,22 +48,14 @@
   margin-right: 10px;
   border-radius: 4px;
 }
-
 .flexSlider__slide_link {
   text-decoration: none;
 }
-
 .flexSlider__slide_top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 70%;
 }
-
 .flexSlider__slide_top--title {
   width: calc(100% - 30px);
   color: #000000;
@@ -93,7 +65,6 @@
   text-transform: uppercase;
   border-radius: 4px 0 0 0;
 }
-
 .flexSlider__slide_top--description {
   width: calc(100% - 30px);
   color: #000000;
@@ -102,49 +73,29 @@
   padding: 15px;
   height: calc(100% - 30px);
 }
-
 .flexSlider__slide_bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   height: 30%;
 }
-
 .flexSlider__slide_bottom--precent {
   width: 50%;
   background: rgba(255, 4, 4, 0.5);
   color: #FFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   font-weight: 800;
   border-radius: 0 0 0 4px;
 }
-
 .flexSlider__slide_bottom--btn {
   width: 50%;
   background: rgba(36, 99, 185, 0.5);
   color: #FFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -182,4 +133,3 @@
     display: none;
   }
 }
-/*# sourceMappingURL=main.css.map */

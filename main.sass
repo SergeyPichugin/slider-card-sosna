@@ -46,7 +46,8 @@
     &__wrapper
         width: 100%
         display: flex
-        overflow-x: auto
+        overflow-x: hidden
+        scroll-behavior: smooth
 
     &__slide
         min-width: 550px        
@@ -110,6 +111,9 @@
 
 @media screen and ( max-width: 470px )
     .flexSlider
+
+        &__wrapper
+            overflow-x: auto
 
         &__slide
             min-width: 280px
