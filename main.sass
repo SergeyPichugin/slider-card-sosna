@@ -112,8 +112,12 @@
 @media screen and ( max-width: 470px )
     .flexSlider
 
+        &__slide_link
+            scroll-snap-align: start
+
         &__wrapper
             overflow-x: auto
+            scroll-snap-type: x mandatory
 
         &__slide
             min-width: 280px
